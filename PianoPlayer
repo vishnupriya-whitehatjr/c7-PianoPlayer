@@ -1,0 +1,78 @@
+var keyC = createSprite(27,200,57,200);
+keyC.shapeColor= "white";
+  
+var keyD= createSprite(85,200,55,200);
+keyD.shapeColor="white";
+
+var keyE= createSprite(142,200,55,200);
+keyE.shapeColor="white";
+
+var keyF= createSprite(199,200,55,200);
+keyF.shapeColor="white";
+
+var keyG= createSprite(256,200,55,200);
+keyG.shapeColor="white";
+
+var keyA= createSprite(313,200,55,200);
+keyA.shapeColor="white";
+
+var keyB= createSprite(370,200,55,200);
+keyB.shapeColor="white";
+
+var c  =createSprite(55,150,30,100);
+c.shapeColor="black";
+
+var d =createSprite(113,150,30,100);
+d.shapeColor="black";
+
+var e= createSprite(169,150,30,100);
+e.shapeColor="black";
+
+var f = createSprite(226,150,30,100);
+f.shapeColor="black";
+
+var g =createSprite(284,150,30,100);
+g.shapeColor="black";
+
+var a =createSprite(341,150,30,100);
+a.shapeColor="black";
+
+
+function draw() {
+  
+   background("red");
+  
+ if(keyDown("c")){ 
+  playSound("c.mp3");
+ }
+ 
+ if(keyWentDown("d")){
+   playSound("d.mp3");
+ }
+ 
+ if(keyWentDown("e")){
+   playSound("e.mp3");
+ }
+ 
+ if(keyWentDown("f")){
+   playSound("f.mp3");
+ }
+ 
+ if(keyWentDown("g")){
+   playSound("g.mp3");
+ }
+ 
+ if(keyWentDown("a")){
+   playSound("a.mp3");
+ }
+ 
+ if(keyWentDown("b")){
+   playSound("b.mp3");
+ }
+  
+  
+  drawSprites();
+  
+}
+
+code.org link : https://studio.code.org/projects/gamelab/zt1M39vNfdIV-dM5VNf0Nelr5jK0of6rGLpjb9ndWf0
